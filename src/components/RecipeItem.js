@@ -1,15 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-function Recipe({ recipe }) {
+function RecipeItem({ recipe }) {
     return (
         <div>
             <img src={recipe.image} alt={recipe.title} />
-            <h3>{recipe.title}</h3>
-            <p>{recipe.sourceUrl}</p>
+            <h3>{recipe.titleCapitalized}</h3>
+            <a href={recipe.sourceUrl}>Go to the recipe website!</a>
+            <br/>
             <Link to={`/recipes/${recipe.id}`}>See details</Link>
         </div>
     );
 }
 
-export default Recipe;
+export default RecipeItem;

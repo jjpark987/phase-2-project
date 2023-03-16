@@ -3,6 +3,7 @@ import { Switch, Route } from "react-router-dom";
 import NavBar from "./NavBar";
 import Home from "./Home";
 import RecipesList from "./RecipesList";
+import RecipeDetail from "./RecipeDetail";
 import AddRecipe from "./AddRecipe";
 
 function App() {
@@ -13,13 +14,15 @@ function App() {
     .then(r => r.json())
     .then(d => {
       const data = d.map(datum => {
-        const { image, title, sourceUrl  } = datum;
+        const { image, title, sourceUrl, servings  } = datum;
+        const id = d.indexOf(datum) + 1;
+        const titleCapitalized = title.split(" ").map(word => word[0].toUpperCase() + word.slice(1).toLowerCase()).join(" ");
         const instructions = datum.analyzedInstructions[0].steps.map(s => s.step);
-        const id = d.indexOf(datum);
-        return { id, image, title, sourceUrl, instructions };
+        return { id, image, titleCapitalized, sourceUrl, servings, instructions };
       })
       setRecipes(data);
     })
+    .catch(e => console.log(e))
   }, []);
 
   return (
@@ -34,6 +37,9 @@ function App() {
         </Route>
         <Route path="/recipes/new">
           <AddRecipe />
+        </Route>
+        <Route path="/recipes/:id">
+          <RecipeDetail recipes={recipes} />
         </Route>
         <Route path="*">
           <h1>404 Not Found</h1>
