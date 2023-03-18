@@ -7,7 +7,7 @@ function RecipeDetail({ recipes }) {
 
     useEffect(() => {
         setCurrentRecipe(recipes.find(recipe => recipe.id === parseInt(id)));
-    }, [recipes]);
+    }, [id, recipes]);
 
     if(!currentRecipe) return <h1>Loading...</h1>
 
@@ -16,7 +16,9 @@ function RecipeDetail({ recipes }) {
             <img src={currentRecipe.image} alt={currentRecipe.titleCapitalized} />
             <h1>{currentRecipe.titleCapitalized}</h1>
             <h3>{"Instructions for " + currentRecipe.servings + " servings:"}</h3>
-            <ol>{currentRecipe.instructions.map((step,index) => <li key={index}>{step}</li>)}</ol>
+            <ol>{currentRecipe.instructions.map((step, index) => <li key={index}>{step}</li>)}</ol>
+            {currentRecipe.sourceUrl ? <a href={currentRecipe.sourceUrl}>Go to the recipe website!</a> : null}
+            <br/>
         </div>
     );
 }

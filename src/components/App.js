@@ -22,8 +22,13 @@ function App() {
       })
       setRecipes(data);
     })
-    .catch(e => console.log(e))
+    .catch(e => console.log(e));
   }, []);
+
+  function addNewRecipe(newRecipe) {
+    newRecipe = {...newRecipe, id: recipes.length + 1}
+    setRecipes([...recipes, newRecipe]);
+  }
 
   return (
     <div className="App">
@@ -36,7 +41,7 @@ function App() {
           <RecipesList recipes={recipes} />
         </Route>
         <Route path="/recipes/new">
-          <AddRecipe />
+          <AddRecipe onAddNewRecipe={addNewRecipe} />
         </Route>
         <Route path="/recipes/:id">
           <RecipeDetail recipes={recipes} />
