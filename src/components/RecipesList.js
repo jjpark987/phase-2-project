@@ -3,12 +3,11 @@ import RecipeItem from "./RecipeItem";
 
 function RecipesList({ recipes, onSetRecipes, onHandleDelete }) {
     useEffect(() => {
-        fetch("http://localhost:3000/results")
+        fetch("http://localhost:3000/recipes")
         .then(r => r.json())
         .then(d => {
           const data = d.map(datum => {
-            const { image, title, sourceUrl, servings  } = datum;
-            const id = d.indexOf(datum) + 1;
+            const { id, image, title, sourceUrl, servings  } = datum;
             const titleCapitalized = title.split(" ").map(word => word[0].toUpperCase() + word.slice(1).toLowerCase()).join(" ");
             const instructions = datum.analyzedInstructions[0].steps.map(s => s.step);
             return { id, image, titleCapitalized, sourceUrl, servings, instructions };

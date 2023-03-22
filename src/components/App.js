@@ -9,13 +9,8 @@ import AddRecipe from "./AddRecipe";
 function App() {
   const [recipes, setRecipes] = useState([]);
 
-  function addNewRecipe(newRecipe) {
-    newRecipe = {...newRecipe, id: recipes.length + 1}
-    setRecipes([...recipes, newRecipe]);
-  }
-
   function deleteRecipe(id) {
-    fetch(`http://localhost:3000/results/${id}`, {
+    fetch(`http://localhost:3000/recipes/${id}`, {
       method: "DELETE",
       headers: {
         "Content-Type": "application/json"
@@ -41,7 +36,7 @@ function App() {
           />
         </Route>
         <Route path="/recipes/new">
-          <AddRecipe onAddNewRecipe={addNewRecipe} />
+          <AddRecipe onAddNewRecipe={newRecipe => setRecipes([...recipes, newRecipe])} />
         </Route>
         <Route path="/recipes/:id">
           <RecipeDetail recipes={recipes} />

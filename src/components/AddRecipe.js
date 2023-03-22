@@ -6,9 +6,8 @@ function AddRecipe({ onAddNewRecipe }) {
         titleCapitalized: "",
         image: "",
         servings: "",
-        instructions: []
+        instructions: [""]
     });
-    let [stepCount, setStepCount] = useState(1);
     const history = useHistory();
 
     function handleSubmit(e) {
@@ -16,7 +15,7 @@ function AddRecipe({ onAddNewRecipe }) {
         const formattedInstructions = newRecipe.instructions.map(instruction => {
             return {step: instruction}
         });
-        fetch("http://localhost:3000/results", {
+        fetch("http://localhost:3000/recipes", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
@@ -40,17 +39,17 @@ function AddRecipe({ onAddNewRecipe }) {
         <div>
             <h1>Add a New Recipe</h1>
             <form onSubmit={handleSubmit}>
-                <label htmlFor="name">Name:</label>
-                <input
-                    id="name"
-                    value={newRecipe.name} 
-                    onChange={e => setNewRecipe({...newRecipe, titleCapitalized: e.target.value})}
-                />
                 <label htmlFor="imageUrl">Image URL:</label>
                 <input
                     id="imageUrl"
                     value={newRecipe.imageUrl}
                     onChange={e => setNewRecipe({...newRecipe, image: e.target.value})}
+                />
+                <label htmlFor="name">Name:</label>
+                <input
+                    id="name"
+                    value={newRecipe.name} 
+                    onChange={e => setNewRecipe({...newRecipe, titleCapitalized: e.target.value})}
                 />
                 <label htmlFor="servings">Serving size:</label>
                 <input
@@ -59,11 +58,11 @@ function AddRecipe({ onAddNewRecipe }) {
                     onChange={e => setNewRecipe({...newRecipe, servings: e.target.value})}
                 />
                 <label htmlFor="instructions">Instructions:</label>
-                {[...Array(stepCount)].map((_, index) => (
+                {newRecipe.instructions.map((_, index) => (
                     <textarea
                         id="instructions"
                         key={index}
-                        value={newRecipe.instructions[index] || ""}
+                        value={newRecipe.instructions[index]}
                         onChange={e => {
                             const newStep = [...newRecipe.instructions];
                             newStep[index] = e.target.value;
@@ -71,7 +70,8 @@ function AddRecipe({ onAddNewRecipe }) {
                         }}
                     />
                 ))}
-                <button type="button" onClick={() => setStepCount(++stepCount)}>Add step</button>
+                <button type="button" onClick={() => setNewRecipe({...newRecipe, instructions: [...newRecipe.instructions, ""]})}>Add step</button>
+                {newRecipe.instructions.length > 1 ? <button type="button" onClick={() => setNewRecipe({...newRecipe, instructions: newRecipe.instructions.slice(0, -1)})}>Delete last step</button> : null}
                 <button type="submit">Submit</button>
             </form>
         </div>

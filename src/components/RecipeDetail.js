@@ -14,7 +14,7 @@ function RecipeDetail({ recipes }) {
         const formattedInstructions = currentRecipe.instructions.map(instruction => {
             return {step: instruction}
         });
-        fetch(`http://localhost:3000/results/${id}`, {
+        fetch(`http://localhost:3000/recipes/${id}`, {
             method: "PATCH",
             headers: {
                 "Content-Type": "application/json"
