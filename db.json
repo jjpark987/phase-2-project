@@ -1,910 +1,910 @@
 {
-    "results": [
-      {
-        "vegetarian": false,
-        "vegan": false,
-        "glutenFree": false,
-        "dairyFree": true,
-        "veryHealthy": false,
-        "cheap": false,
-        "veryPopular": false,
-        "sustainable": false,
-        "lowFodmap": false,
-        "weightWatcherSmartPoints": 21,
-        "gaps": "no",
-        "preparationMinutes": 25,
-        "cookingMinutes": 45,
-        "aggregateLikes": 1,
-        "healthScore": 41,
-        "creditsText": "BBC Good Food",
-        "sourceName": "BBC Good Food",
-        "pricePerServing": 587.75,
-        "id": 1,
-        "title": "Beef pho",
-        "readyInMinutes": 70,
-        "servings": 2,
-        "sourceUrl": "https://www.bbcgoodfood.com/recipes/beef-pho",
-        "image": "https://spoonacular.com/recipeImages/1087580-312x231.jpg",
-        "imageType": "jpg",
-        "summary": "Beef pho might be a good recipe to expand your main course repertoire. For <b>$5.88 per serving</b>, this recipe <b>covers 33%</b> of your daily requirements of vitamins and minerals. This recipe makes 2 servings with <b>769 calories</b>, <b>41g of protein</b>, and <b>19g of fat</b> each. It is a good option if you're following a <b>dairy free</b> diet. It is an <b>expensive</b> recipe for fans of Vietnamese food. 1 person has tried and liked this recipe. It is brought to you by BBC Good Food. Head to the store and pick up low salt beef stock, flat rice noodles, sirloin steak, and a few other things to make it today. From preparation to the plate, this recipe takes about <b>1 hour and 10 minutes</b>. With a spoonacular <b>score of 75%</b>, this dish is pretty good. Users who liked this recipe also liked <a href=\"https://spoonacular.com/recipes/beef-pho-736162\">Beef Pho</a>, <a href=\"https://spoonacular.com/recipes/instant-pot-chicken-pho-noodle-soup-pho-ga-1100131\">Instant Pot Chicken Pho Noodle Soup (Pho Ga)</a>, and <a href=\"https://spoonacular.com/recipes/beef-pho-noodle-soup-670572\">Beef Pho Noodle Soup</a>.",
-        "cuisines": [
-          "Vietnamese",
-          "Asian"
-        ],
-        "dishTypes": [
-          "soup",
-          "lunch",
-          "main course",
-          "main dish",
-          "dinner"
-        ],
-        "diets": [
-          "dairy free"
-        ],
-        "occasions": [],
-        "analyzedInstructions": [
-          {
-            "name": "",
-            "steps": [
-              {
-                "number": 1,
-                "step": "Tip the beef stock along with 500ml of water into a large saucepan. Sit the onion and ginger in a frying pan over a high heat and char on all sides, around 3-5 mins (you can also do this under your grill). Once charred, add to the beef stock. In the same pan, toast the spices for 2-3 mins and once they begin to smell fragrant, add them to the beef stock as well. Bring the stock to the boil, then turn to a simmer and cook for 30mins before straining.",
-                "ingredients": [
-                  {
-                    "id": 6170,
-                    "name": "beef stock",
-                    "localizedName": "beef stock",
-                    "image": "beef-broth.png"
-                  },
-                  {
-                    "id": 11216,
-                    "name": "ginger",
-                    "localizedName": "ginger",
-                    "image": "ginger.png"
-                  },
-                  {
-                    "id": 2035,
-                    "name": "spices",
-                    "localizedName": "spices",
-                    "image": "spices.png"
-                  },
-                  {
-                    "id": 11282,
-                    "name": "onion",
-                    "localizedName": "onion",
-                    "image": "brown-onion.png"
-                  },
-                  {
-                    "id": 1006615,
-                    "name": "stock",
-                    "localizedName": "stock",
-                    "image": "chicken-broth.png"
-                  },
-                  {
-                    "id": 0,
-                    "name": "sandwich bread",
-                    "localizedName": "sandwich bread",
-                    "image": "white-bread.jpg"
-                  },
-                  {
-                    "id": 14412,
-                    "name": "water",
-                    "localizedName": "water",
-                    "image": "water.png"
-                  }
-                ],
-                "equipment": [
-                  {
-                    "id": 404645,
-                    "name": "frying pan",
-                    "localizedName": "frying pan",
-                    "image": "pan.png"
-                  },
-                  {
-                    "id": 404669,
-                    "name": "sauce pan",
-                    "localizedName": "sauce pan",
-                    "image": "sauce-pan.jpg"
-                  },
-                  {
-                    "id": 404706,
-                    "name": "grill",
-                    "localizedName": "grill",
-                    "image": "grill.jpg"
-                  }
-                ],
-                "length": {
-                  "number": 38,
-                  "unit": "minutes"
+  "results": [
+    {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": true,
+      "veryHealthy": false,
+      "cheap": false,
+      "veryPopular": false,
+      "sustainable": false,
+      "lowFodmap": false,
+      "weightWatcherSmartPoints": 21,
+      "gaps": "no",
+      "preparationMinutes": 25,
+      "cookingMinutes": 45,
+      "aggregateLikes": 1,
+      "healthScore": 41,
+      "creditsText": "BBC Good Food",
+      "sourceName": "BBC Good Food",
+      "pricePerServing": 587.75,
+      "id": 1,
+      "title": "Beef pho",
+      "readyInMinutes": 70,
+      "servings": 2,
+      "sourceUrl": "https://www.bbcgoodfood.com/recipes/beef-pho",
+      "image": "https://spoonacular.com/recipeImages/1087580-312x231.jpg",
+      "imageType": "jpg",
+      "summary": "Beef pho might be a good recipe to expand your main course repertoire. For <b>$5.88 per serving</b>, this recipe <b>covers 33%</b> of your daily requirements of vitamins and minerals. This recipe makes 2 servings with <b>769 calories</b>, <b>41g of protein</b>, and <b>19g of fat</b> each. It is a good option if you're following a <b>dairy free</b> diet. It is an <b>expensive</b> recipe for fans of Vietnamese food. 1 person has tried and liked this recipe. It is brought to you by BBC Good Food. Head to the store and pick up low salt beef stock, flat rice noodles, sirloin steak, and a few other things to make it today. From preparation to the plate, this recipe takes about <b>1 hour and 10 minutes</b>. With a spoonacular <b>score of 75%</b>, this dish is pretty good. Users who liked this recipe also liked <a href=\"https://spoonacular.com/recipes/beef-pho-736162\">Beef Pho</a>, <a href=\"https://spoonacular.com/recipes/instant-pot-chicken-pho-noodle-soup-pho-ga-1100131\">Instant Pot Chicken Pho Noodle Soup (Pho Ga)</a>, and <a href=\"https://spoonacular.com/recipes/beef-pho-noodle-soup-670572\">Beef Pho Noodle Soup</a>.",
+      "cuisines": [
+        "Vietnamese",
+        "Asian"
+      ],
+      "dishTypes": [
+        "soup",
+        "lunch",
+        "main course",
+        "main dish",
+        "dinner"
+      ],
+      "diets": [
+        "dairy free"
+      ],
+      "occasions": [],
+      "analyzedInstructions": [
+        {
+          "name": "",
+          "steps": [
+            {
+              "number": 1,
+              "step": "Tip the beef stock along with 500ml of water into a large saucepan. Sit the onion and ginger in a frying pan over a high heat and char on all sides, around 3-5 mins (you can also do this under your grill). Once charred, add to the beef stock. In the same pan, toast the spices for 2-3 mins and once they begin to smell fragrant, add them to the beef stock as well. Bring the stock to the boil, then turn to a simmer and cook for 30mins before straining.",
+              "ingredients": [
+                {
+                  "id": 6170,
+                  "name": "beef stock",
+                  "localizedName": "beef stock",
+                  "image": "beef-broth.png"
+                },
+                {
+                  "id": 11216,
+                  "name": "ginger",
+                  "localizedName": "ginger",
+                  "image": "ginger.png"
+                },
+                {
+                  "id": 2035,
+                  "name": "spices",
+                  "localizedName": "spices",
+                  "image": "spices.png"
+                },
+                {
+                  "id": 11282,
+                  "name": "onion",
+                  "localizedName": "onion",
+                  "image": "brown-onion.png"
+                },
+                {
+                  "id": 1006615,
+                  "name": "stock",
+                  "localizedName": "stock",
+                  "image": "chicken-broth.png"
+                },
+                {
+                  "id": 0,
+                  "name": "sandwich bread",
+                  "localizedName": "sandwich bread",
+                  "image": "white-bread.jpg"
+                },
+                {
+                  "id": 14412,
+                  "name": "water",
+                  "localizedName": "water",
+                  "image": "water.png"
                 }
-              },
-              {
-                "number": 2,
-                "step": "Meanwhile, cut the fat from the steak and wrap in cling film, then put into the freezer for 15 mins  this will make your steak really easy to slice! Slice it thinly, then cover with cling film again and pop into the fridge.",
-                "ingredients": [
-                  {
-                    "id": 23232,
-                    "name": "steak",
-                    "localizedName": "steak",
-                    "image": "ribeye-raw.jpg"
-                  },
-                  {
-                    "id": 10018364,
-                    "name": "wrap",
-                    "localizedName": "wrap",
-                    "image": "flour-tortilla.jpg"
-                  },
-                  {
-                    "id": 0,
-                    "name": "pop",
-                    "localizedName": "soft drink",
-                    "image": ""
-                  }
-                ],
-                "equipment": [],
-                "length": {
-                  "number": 15,
-                  "unit": "minutes"
+              ],
+              "equipment": [
+                {
+                  "id": 404645,
+                  "name": "frying pan",
+                  "localizedName": "frying pan",
+                  "image": "pan.png"
+                },
+                {
+                  "id": 404669,
+                  "name": "sauce pan",
+                  "localizedName": "sauce pan",
+                  "image": "sauce-pan.jpg"
+                },
+                {
+                  "id": 404706,
+                  "name": "grill",
+                  "localizedName": "grill",
+                  "image": "grill.jpg"
                 }
-              },
-              {
-                "number": 3,
-                "step": "Taste the beef stock and use the palm sugar, fish sauce and soy to season. Cook the noodles according to package instructions and split between two bowls, topping each with the sliced beef. Bring the stock to the boil and then pour into the bowls (the heat will cook the beef). Top each with the spring onions, chilli slices and herbs.",
-                "ingredients": [
-                  {
-                    "id": 11291,
-                    "name": "spring onions",
-                    "localizedName": "spring onions",
-                    "image": "spring-onions.jpg"
-                  },
-                  {
-                    "id": 6170,
-                    "name": "beef stock",
-                    "localizedName": "beef stock",
-                    "image": "beef-broth.png"
-                  },
-                  {
-                    "id": 6179,
-                    "name": "fish sauce",
-                    "localizedName": "fish sauce",
-                    "image": "asian-fish-sauce.jpg"
-                  },
-                  {
-                    "id": 93831,
-                    "name": "palm sugar",
-                    "localizedName": "palm sugar",
-                    "image": "brown-sugar-pile.jpg"
-                  },
-                  {
-                    "id": 20420,
-                    "name": "pasta",
-                    "localizedName": "pasta",
-                    "image": "fusilli.jpg"
-                  },
-                  {
-                    "id": 11819,
-                    "name": "chili pepper",
-                    "localizedName": "chili pepper",
-                    "image": "red-chili.jpg"
-                  },
-                  {
-                    "id": 1002044,
-                    "name": "herbs",
-                    "localizedName": "herbs",
-                    "image": "mixed-fresh-herbs.jpg"
-                  },
-                  {
-                    "id": 1006615,
-                    "name": "stock",
-                    "localizedName": "stock",
-                    "image": "chicken-broth.png"
-                  },
-                  {
-                    "id": 23572,
-                    "name": "beef",
-                    "localizedName": "beef",
-                    "image": "beef-cubes-raw.png"
-                  }
-                ],
-                "equipment": [
-                  {
-                    "id": 404783,
-                    "name": "bowl",
-                    "localizedName": "bowl",
-                    "image": "bowl.jpg"
-                  }
-                ]
-              },
-              {
-                "number": 4,
-                "step": "Serve with the lime wedges to squeeze over.",
-                "ingredients": [
-                  {
-                    "id": 1029159,
-                    "name": "lime wedge",
-                    "localizedName": "lime wedge",
-                    "image": "lime-wedge.jpg"
-                  }
-                ],
-                "equipment": []
+              ],
+              "length": {
+                "number": 38,
+                "unit": "minutes"
               }
-            ]
-          }
-        ]
-      },
-      {
-        "vegetarian": false,
-        "vegan": false,
-        "glutenFree": false,
-        "dairyFree": true,
-        "veryHealthy": false,
-        "cheap": false,
-        "veryPopular": true,
-        "sustainable": false,
-        "lowFodmap": false,
-        "weightWatcherSmartPoints": 14,
-        "gaps": "no",
-        "preparationMinutes": 15,
-        "cookingMinutes": 120,
-        "aggregateLikes": 1433,
-        "healthScore": 20,
-        "creditsText": "Foodnetwork",
-        "sourceName": "Foodnetwork",
-        "pricePerServing": 477.9,
-        "id": 2,
-        "title": "Beef Pho",
-        "readyInMinutes": 135,
-        "servings": 6,
-        "sourceUrl": "http://www.foodnetwork.com/recipes/food-network-kitchens/beef-pho-recipe.html",
-        "image": "https://spoonacular.com/recipeImages/736162-312x231.jpeg",
-        "imageType": "jpeg",
-        "summary": "Forget going out to eat or ordering takeout every time you crave Vietnamese food. Try making Beef Pho at home. This recipe serves 6 and costs $4.78 per serving. This main course has <b>526 calories</b>, <b>31g of protein</b>, and <b>8g of fat</b> per serving. 1433 people have made this recipe and would make it again. It is a good option if you're following a <b>dairy free</b> diet. A mixture of onion, star anise pods, beef broth, and a handful of other ingredients are all it takes to make this recipe so flavorful. From preparation to the plate, this recipe takes approximately <b>2 hours and 15 minutes</b>. It is brought to you by Foodnetwork. With a spoonacular <b>score of 92%</b>, this dish is excellent. Try <a href=\"https://spoonacular.com/recipes/beef-pho-1087580\">Beef pho</a>, <a href=\"https://spoonacular.com/recipes/instant-pot-chicken-pho-noodle-soup-pho-ga-1100131\">Instant Pot Chicken Pho Noodle Soup (Pho Ga)</a>, and <a href=\"https://spoonacular.com/recipes/instant-pot-beef-pho-1694091\">Instant Pot Beef Pho</a> for similar recipes.",
-        "cuisines": [
-          "Vietnamese",
-          "Asian"
-        ],
-        "dishTypes": [
-          "soup",
-          "lunch",
-          "main course",
-          "main dish",
-          "dinner"
-        ],
-        "diets": [
-          "dairy free"
-        ],
-        "occasions": [],
-        "analyzedInstructions": [
-          {
-            "name": "",
-            "steps": [
-              {
-                "number": 1,
-                "step": "Make the broth: Position a rack in the upper third of the oven and preheat to 450 degrees F. Toss the beef shanks, onions, ginger and garlic with the vegetable oil on a rimmed baking sheet and season generously with salt. Roast, turning once halfway through, until the meat and vegetables are slightly charred, about 30 minutes.",
-                "ingredients": [
-                  {
-                    "id": 4669,
-                    "name": "vegetable oil",
-                    "localizedName": "vegetable oil",
-                    "image": "vegetable-oil.jpg"
-                  },
-                  {
-                    "id": 13227,
-                    "name": "beef shank",
-                    "localizedName": "beef shank",
-                    "image": "sliced-beef-shank.png"
-                  },
-                  {
-                    "id": 11583,
-                    "name": "vegetable",
-                    "localizedName": "vegetable",
-                    "image": "mixed-vegetables.png"
-                  },
-                  {
-                    "id": 11215,
-                    "name": "garlic",
-                    "localizedName": "garlic",
-                    "image": "garlic.png"
-                  },
-                  {
-                    "id": 11216,
-                    "name": "ginger",
-                    "localizedName": "ginger",
-                    "image": "ginger.png"
-                  },
-                  {
-                    "id": 11282,
-                    "name": "onion",
-                    "localizedName": "onion",
-                    "image": "brown-onion.png"
-                  },
-                  {
-                    "id": 1006615,
-                    "name": "broth",
-                    "localizedName": "broth",
-                    "image": "chicken-broth.png"
-                  },
-                  {
-                    "id": 1065062,
-                    "name": "meat",
-                    "localizedName": "meat",
-                    "image": "whole-chicken.jpg"
-                  },
-                  {
-                    "id": 2047,
-                    "name": "salt",
-                    "localizedName": "salt",
-                    "image": "salt.jpg"
-                  }
-                ],
-                "equipment": [
-                  {
-                    "id": 404727,
-                    "name": "baking sheet",
-                    "localizedName": "baking sheet",
-                    "image": "baking-sheet.jpg"
-                  },
-                  {
-                    "id": 404784,
-                    "name": "oven",
-                    "localizedName": "oven",
-                    "image": "oven.jpg",
-                    "temperature": {
-                      "number": 450,
-                      "unit": "Fahrenheit"
-                    }
-                  }
-                ],
-                "length": {
-                  "number": 30,
-                  "unit": "minutes"
+            },
+            {
+              "number": 2,
+              "step": "Meanwhile, cut the fat from the steak and wrap in cling film, then put into the freezer for 15 mins  this will make your steak really easy to slice! Slice it thinly, then cover with cling film again and pop into the fridge.",
+              "ingredients": [
+                {
+                  "id": 23232,
+                  "name": "steak",
+                  "localizedName": "steak",
+                  "image": "ribeye-raw.jpg"
+                },
+                {
+                  "id": 10018364,
+                  "name": "wrap",
+                  "localizedName": "wrap",
+                  "image": "flour-tortilla.jpg"
+                },
+                {
+                  "id": 0,
+                  "name": "pop",
+                  "localizedName": "soft drink",
+                  "image": ""
                 }
-              },
-              {
-                "number": 2,
-                "step": "Transfer to a large pot.",
-                "ingredients": [],
-                "equipment": [
-                  {
-                    "id": 404752,
-                    "name": "pot",
-                    "localizedName": "pot",
-                    "image": "stock-pot.jpg"
-                  }
-                ]
-              },
-              {
-                "number": 3,
-                "step": "Meanwhile, toast the cinnamon sticks, star anise pods and peppercorns in a small skillet over medium heat, shaking the pan, 5 minutes.",
-                "ingredients": [
-                  {
-                    "id": 1002010,
-                    "name": "cinnamon stick",
-                    "localizedName": "cinnamon stick",
-                    "image": "cinnamon.jpg"
-                  },
-                  {
-                    "id": 1022030,
-                    "name": "peppercorns",
-                    "localizedName": "peppercorns",
-                    "image": "black-pepper.png"
-                  },
-                  {
-                    "id": 1012002,
-                    "name": "star anise",
-                    "localizedName": "star anise",
-                    "image": "star-anise.jpg"
-                  },
-                  {
-                    "id": 0,
-                    "name": "sandwich bread",
-                    "localizedName": "sandwich bread",
-                    "image": "white-bread.jpg"
-                  }
-                ],
-                "equipment": [
-                  {
-                    "id": 404645,
-                    "name": "frying pan",
-                    "localizedName": "frying pan",
-                    "image": "pan.png"
-                  }
-                ],
-                "length": {
-                  "number": 5,
-                  "unit": "minutes"
+              ],
+              "equipment": [],
+              "length": {
+                "number": 15,
+                "unit": "minutes"
+              }
+            },
+            {
+              "number": 3,
+              "step": "Taste the beef stock and use the palm sugar, fish sauce and soy to season. Cook the noodles according to package instructions and split between two bowls, topping each with the sliced beef. Bring the stock to the boil and then pour into the bowls (the heat will cook the beef). Top each with the spring onions, chilli slices and herbs.",
+              "ingredients": [
+                {
+                  "id": 11291,
+                  "name": "spring onions",
+                  "localizedName": "spring onions",
+                  "image": "spring-onions.jpg"
+                },
+                {
+                  "id": 6170,
+                  "name": "beef stock",
+                  "localizedName": "beef stock",
+                  "image": "beef-broth.png"
+                },
+                {
+                  "id": 6179,
+                  "name": "fish sauce",
+                  "localizedName": "fish sauce",
+                  "image": "asian-fish-sauce.jpg"
+                },
+                {
+                  "id": 93831,
+                  "name": "palm sugar",
+                  "localizedName": "palm sugar",
+                  "image": "brown-sugar-pile.jpg"
+                },
+                {
+                  "id": 20420,
+                  "name": "pasta",
+                  "localizedName": "pasta",
+                  "image": "fusilli.jpg"
+                },
+                {
+                  "id": 11819,
+                  "name": "chili pepper",
+                  "localizedName": "chili pepper",
+                  "image": "red-chili.jpg"
+                },
+                {
+                  "id": 1002044,
+                  "name": "herbs",
+                  "localizedName": "herbs",
+                  "image": "mixed-fresh-herbs.jpg"
+                },
+                {
+                  "id": 1006615,
+                  "name": "stock",
+                  "localizedName": "stock",
+                  "image": "chicken-broth.png"
+                },
+                {
+                  "id": 23572,
+                  "name": "beef",
+                  "localizedName": "beef",
+                  "image": "beef-cubes-raw.png"
                 }
-              },
-              {
-                "number": 4,
-                "step": "Add the beef broth, 2 quarts water, the toasted spices and the fish sauce to the pot with the beef shanks. Bring to a boil, then reduce the heat to maintain a gentle simmer. Cook, skimming off any foam that rises to the top, until the meat is tender, 1 hour to 1 hour, 30 minutes.",
-                "ingredients": [
-                  {
-                    "id": 13227,
-                    "name": "beef shank",
-                    "localizedName": "beef shank",
-                    "image": "sliced-beef-shank.png"
-                  },
-                  {
-                    "id": 6008,
-                    "name": "beef broth",
-                    "localizedName": "beef broth",
-                    "image": "beef-broth.png"
-                  },
-                  {
-                    "id": 6179,
-                    "name": "fish sauce",
-                    "localizedName": "fish sauce",
-                    "image": "asian-fish-sauce.jpg"
-                  },
-                  {
-                    "id": 2035,
-                    "name": "spices",
-                    "localizedName": "spices",
-                    "image": "spices.png"
-                  },
-                  {
-                    "id": 14412,
-                    "name": "water",
-                    "localizedName": "water",
-                    "image": "water.png"
-                  },
-                  {
-                    "id": 1065062,
-                    "name": "meat",
-                    "localizedName": "meat",
-                    "image": "whole-chicken.jpg"
-                  }
-                ],
-                "equipment": [
-                  {
-                    "id": 404752,
-                    "name": "pot",
-                    "localizedName": "pot",
-                    "image": "stock-pot.jpg"
-                  }
-                ],
-                "length": {
-                  "number": 150,
-                  "unit": "minutes"
+              ],
+              "equipment": [
+                {
+                  "id": 404783,
+                  "name": "bowl",
+                  "localizedName": "bowl",
+                  "image": "bowl.jpg"
                 }
-              },
-              {
+              ]
+            },
+            {
+              "number": 4,
+              "step": "Serve with the lime wedges to squeeze over.",
+              "ingredients": [
+                {
+                  "id": 1029159,
+                  "name": "lime wedge",
+                  "localizedName": "lime wedge",
+                  "image": "lime-wedge.jpg"
+                }
+              ],
+              "equipment": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": true,
+      "veryHealthy": false,
+      "cheap": false,
+      "veryPopular": true,
+      "sustainable": false,
+      "lowFodmap": false,
+      "weightWatcherSmartPoints": 14,
+      "gaps": "no",
+      "preparationMinutes": 15,
+      "cookingMinutes": 120,
+      "aggregateLikes": 1433,
+      "healthScore": 20,
+      "creditsText": "Foodnetwork",
+      "sourceName": "Foodnetwork",
+      "pricePerServing": 477.9,
+      "id": 2,
+      "title": "Beef Pho",
+      "readyInMinutes": 135,
+      "servings": 6,
+      "sourceUrl": "http://www.foodnetwork.com/recipes/food-network-kitchens/beef-pho-recipe.html",
+      "image": "https://spoonacular.com/recipeImages/736162-312x231.jpeg",
+      "imageType": "jpeg",
+      "summary": "Forget going out to eat or ordering takeout every time you crave Vietnamese food. Try making Beef Pho at home. This recipe serves 6 and costs $4.78 per serving. This main course has <b>526 calories</b>, <b>31g of protein</b>, and <b>8g of fat</b> per serving. 1433 people have made this recipe and would make it again. It is a good option if you're following a <b>dairy free</b> diet. A mixture of onion, star anise pods, beef broth, and a handful of other ingredients are all it takes to make this recipe so flavorful. From preparation to the plate, this recipe takes approximately <b>2 hours and 15 minutes</b>. It is brought to you by Foodnetwork. With a spoonacular <b>score of 92%</b>, this dish is excellent. Try <a href=\"https://spoonacular.com/recipes/beef-pho-1087580\">Beef pho</a>, <a href=\"https://spoonacular.com/recipes/instant-pot-chicken-pho-noodle-soup-pho-ga-1100131\">Instant Pot Chicken Pho Noodle Soup (Pho Ga)</a>, and <a href=\"https://spoonacular.com/recipes/instant-pot-beef-pho-1694091\">Instant Pot Beef Pho</a> for similar recipes.",
+      "cuisines": [
+        "Vietnamese",
+        "Asian"
+      ],
+      "dishTypes": [
+        "soup",
+        "lunch",
+        "main course",
+        "main dish",
+        "dinner"
+      ],
+      "diets": [
+        "dairy free"
+      ],
+      "occasions": [],
+      "analyzedInstructions": [
+        {
+          "name": "",
+          "steps": [
+            {
+              "number": 1,
+              "step": "Make the broth: Position a rack in the upper third of the oven and preheat to 450 degrees F. Toss the beef shanks, onions, ginger and garlic with the vegetable oil on a rimmed baking sheet and season generously with salt. Roast, turning once halfway through, until the meat and vegetables are slightly charred, about 30 minutes.",
+              "ingredients": [
+                {
+                  "id": 4669,
+                  "name": "vegetable oil",
+                  "localizedName": "vegetable oil",
+                  "image": "vegetable-oil.jpg"
+                },
+                {
+                  "id": 13227,
+                  "name": "beef shank",
+                  "localizedName": "beef shank",
+                  "image": "sliced-beef-shank.png"
+                },
+                {
+                  "id": 11583,
+                  "name": "vegetable",
+                  "localizedName": "vegetable",
+                  "image": "mixed-vegetables.png"
+                },
+                {
+                  "id": 11215,
+                  "name": "garlic",
+                  "localizedName": "garlic",
+                  "image": "garlic.png"
+                },
+                {
+                  "id": 11216,
+                  "name": "ginger",
+                  "localizedName": "ginger",
+                  "image": "ginger.png"
+                },
+                {
+                  "id": 11282,
+                  "name": "onion",
+                  "localizedName": "onion",
+                  "image": "brown-onion.png"
+                },
+                {
+                  "id": 1006615,
+                  "name": "broth",
+                  "localizedName": "broth",
+                  "image": "chicken-broth.png"
+                },
+                {
+                  "id": 1065062,
+                  "name": "meat",
+                  "localizedName": "meat",
+                  "image": "whole-chicken.jpg"
+                },
+                {
+                  "id": 2047,
+                  "name": "salt",
+                  "localizedName": "salt",
+                  "image": "salt.jpg"
+                }
+              ],
+              "equipment": [
+                {
+                  "id": 404727,
+                  "name": "baking sheet",
+                  "localizedName": "baking sheet",
+                  "image": "baking-sheet.jpg"
+                },
+                {
+                  "id": 404784,
+                  "name": "oven",
+                  "localizedName": "oven",
+                  "image": "oven.jpg",
+                  "temperature": {
+                    "number": 450,
+                    "unit": "Fahrenheit"
+                  }
+                }
+              ],
+              "length": {
+                "number": 30,
+                "unit": "minutes"
+              }
+            },
+            {
+              "number": 2,
+              "step": "Transfer to a large pot.",
+              "ingredients": [],
+              "equipment": [
+                {
+                  "id": 404752,
+                  "name": "pot",
+                  "localizedName": "pot",
+                  "image": "stock-pot.jpg"
+                }
+              ]
+            },
+            {
+              "number": 3,
+              "step": "Meanwhile, toast the cinnamon sticks, star anise pods and peppercorns in a small skillet over medium heat, shaking the pan, 5 minutes.",
+              "ingredients": [
+                {
+                  "id": 1002010,
+                  "name": "cinnamon stick",
+                  "localizedName": "cinnamon stick",
+                  "image": "cinnamon.jpg"
+                },
+                {
+                  "id": 1022030,
+                  "name": "peppercorns",
+                  "localizedName": "peppercorns",
+                  "image": "black-pepper.png"
+                },
+                {
+                  "id": 1012002,
+                  "name": "star anise",
+                  "localizedName": "star anise",
+                  "image": "star-anise.jpg"
+                },
+                {
+                  "id": 0,
+                  "name": "sandwich bread",
+                  "localizedName": "sandwich bread",
+                  "image": "white-bread.jpg"
+                }
+              ],
+              "equipment": [
+                {
+                  "id": 404645,
+                  "name": "frying pan",
+                  "localizedName": "frying pan",
+                  "image": "pan.png"
+                }
+              ],
+              "length": {
                 "number": 5,
-                "step": "Remove from the heat and transfer the beef shanks to a cutting board; strain the broth through a fine-mesh sieve into another large pot. (The broth can be made up to 2 days ahead; let cool, then refrigerate in a covered container.)",
-                "ingredients": [
-                  {
-                    "id": 13227,
-                    "name": "beef shank",
-                    "localizedName": "beef shank",
-                    "image": "sliced-beef-shank.png"
-                  },
-                  {
-                    "id": 1006615,
-                    "name": "broth",
-                    "localizedName": "broth",
-                    "image": "chicken-broth.png"
-                  }
-                ],
-                "equipment": [
-                  {
-                    "id": 404716,
-                    "name": "cutting board",
-                    "localizedName": "cutting board",
-                    "image": "cutting-board.jpg"
-                  },
-                  {
-                    "id": 405600,
-                    "name": "sieve",
-                    "localizedName": "sieve",
-                    "image": "strainer.png"
-                  },
-                  {
-                    "id": 404752,
-                    "name": "pot",
-                    "localizedName": "pot",
-                    "image": "stock-pot.jpg"
-                  }
-                ]
-              },
-              {
-                "number": 6,
-                "step": "Shred the meat from the shanks with two forks, discarding any bits of cartilage, then stir back into the broth. Discard the bones.",
-                "ingredients": [
-                  {
-                    "id": 1006615,
-                    "name": "broth",
-                    "localizedName": "broth",
-                    "image": "chicken-broth.png"
-                  },
-                  {
-                    "id": 1065062,
-                    "name": "meat",
-                    "localizedName": "meat",
-                    "image": "whole-chicken.jpg"
-                  }
-                ],
-                "equipment": []
-              },
-              {
-                "number": 7,
-                "step": "Cook the noodles as the label directs. Divide the broth and shredded meat among bowls, then add the noodles and roast beef. Top with the bean sprouts, basil, jalapenos and red onion; serve with hoisin sauce and/or Sriracha.",
-                "ingredients": [
-                  {
-                    "id": 11043,
-                    "name": "bean sprouts",
-                    "localizedName": "bean sprouts",
-                    "image": "bean-sprouts.jpg"
-                  },
-                  {
-                    "id": 6175,
-                    "name": "hoisin sauce",
-                    "localizedName": "hoisin sauce",
-                    "image": "dark-sauce.jpg"
-                  },
-                  {
-                    "id": 93713,
-                    "name": "roast beef",
-                    "localizedName": "roast beef",
-                    "image": "roast-beef-slices.jpg"
-                  },
-                  {
-                    "id": 11979,
-                    "name": "jalapeno pepper",
-                    "localizedName": "jalapeno pepper",
-                    "image": "jalapeno-pepper.png"
-                  },
-                  {
-                    "id": 10011282,
-                    "name": "red onion",
-                    "localizedName": "red onion",
-                    "image": "red-onion.png"
-                  },
-                  {
-                    "id": 1016168,
-                    "name": "sriracha",
-                    "localizedName": "sriracha",
-                    "image": "hot-sauce-or-tabasco.png"
-                  },
-                  {
-                    "id": 20420,
-                    "name": "pasta",
-                    "localizedName": "pasta",
-                    "image": "fusilli.jpg"
-                  },
-                  {
-                    "id": 2044,
-                    "name": "basil",
-                    "localizedName": "basil",
-                    "image": "basil.jpg"
-                  },
-                  {
-                    "id": 1006615,
-                    "name": "broth",
-                    "localizedName": "broth",
-                    "image": "chicken-broth.png"
-                  },
-                  {
-                    "id": 1065062,
-                    "name": "meat",
-                    "localizedName": "meat",
-                    "image": "whole-chicken.jpg"
-                  }
-                ],
-                "equipment": [
-                  {
-                    "id": 404783,
-                    "name": "bowl",
-                    "localizedName": "bowl",
-                    "image": "bowl.jpg"
-                  }
-                ]
-              },
-              {
-                "number": 8,
-                "step": "Photograph by Con Poulos",
-                "ingredients": [],
-                "equipment": []
+                "unit": "minutes"
               }
-            ]
-          }
-        ]
-      },
-      {
-        "vegetarian": false,
-        "vegan": false,
-        "glutenFree": false,
-        "dairyFree": true,
-        "veryHealthy": false,
-        "cheap": false,
-        "veryPopular": false,
-        "sustainable": false,
-        "lowFodmap": false,
-        "weightWatcherSmartPoints": 11,
-        "gaps": "no",
-        "preparationMinutes": 20,
-        "cookingMinutes": 20,
-        "aggregateLikes": 23,
-        "healthScore": 26,
-        "creditsText": "Eating Richly",
-        "sourceName": "Eating Richly",
-        "pricePerServing": 194.57,
-        "id": 3,
-        "title": "Easy Pho",
-        "readyInMinutes": 40,
-        "servings": 6,
-        "sourceUrl": "http://eatingrichly.com/04/easy-pho-recipe-with-leftover-roast-goose/",
-        "image": "https://spoonacular.com/recipeImages/485512-312x231.jpg",
-        "imageType": "jpg",
-        "summary": "If you want to add more <b>Vietnamese</b> recipes to your recipe box, Easy Pho might be a recipe you should try. One serving contains <b>454 calories</b>, <b>28g of protein</b>, and <b>6g of fat</b>. For <b>$1.95 per serving</b>, you get a main course that serves 6. A few people made this recipe, and 23 would say it hit the spot. Head to the store and pick up goose meat and skin, fish sauce, cinnamon, and a few other things to make it today. It is a good option if you're following a <b>dairy free</b> diet. It is brought to you by Eating Richly. From preparation to the plate, this recipe takes approximately <b>40 minutes</b>. Overall, this recipe earns an <b>outstanding spoonacular score of 84%</b>. If you like this recipe, you might also like recipes such as <a href=\"https://spoonacular.com/recipes/instant-pot-chicken-pho-noodle-soup-pho-ga-1100131\">Instant Pot Chicken Pho Noodle Soup (Pho Ga)</a>, <a href=\"https://spoonacular.com/recipes/easy-vegan-pho-1591073\">Easy Vegan Pho</a>, and <a href=\"https://spoonacular.com/recipes/easy-vegan-pho-1591555\">Easy Vegan Pho</a>.",
-        "cuisines": [
-          "Vietnamese",
-          "Asian"
-        ],
-        "dishTypes": [
-          "soup",
-          "lunch",
-          "main course",
-          "main dish",
-          "dinner"
-        ],
-        "diets": [
-          "dairy free"
-        ],
-        "occasions": [],
-        "analyzedInstructions": [
-          {
-            "name": "",
-            "steps": [
-              {
-                "number": 1,
-                "step": "Place your leftover goose meat in a large pot and heat on medium high.  When it begins to sizzle, add garlic, onion and bell pepper.",
-                "ingredients": [
-                  {
-                    "id": 10211821,
-                    "name": "bell pepper",
-                    "localizedName": "bell pepper",
-                    "image": "bell-pepper-orange.png"
-                  },
-                  {
-                    "id": 11215,
-                    "name": "garlic",
-                    "localizedName": "garlic",
-                    "image": "garlic.png"
-                  },
-                  {
-                    "id": 93714,
-                    "name": "whole goose",
-                    "localizedName": "whole goose",
-                    "image": "duck.png"
-                  },
-                  {
-                    "id": 11282,
-                    "name": "onion",
-                    "localizedName": "onion",
-                    "image": "brown-onion.png"
-                  },
-                  {
-                    "id": 1065062,
-                    "name": "meat",
-                    "localizedName": "meat",
-                    "image": "whole-chicken.jpg"
-                  }
-                ],
-                "equipment": [
-                  {
-                    "id": 404752,
-                    "name": "pot",
-                    "localizedName": "pot",
-                    "image": "stock-pot.jpg"
-                  }
-                ]
-              },
-              {
-                "number": 2,
-                "step": "Mix well, then cook 6-8 minutes without stirring until vegetables have softened.",
-                "ingredients": [
-                  {
-                    "id": 11583,
-                    "name": "vegetable",
-                    "localizedName": "vegetable",
-                    "image": "mixed-vegetables.png"
-                  }
-                ],
-                "equipment": [],
-                "length": {
-                  "number": 8,
-                  "unit": "minutes"
+            },
+            {
+              "number": 4,
+              "step": "Add the beef broth, 2 quarts water, the toasted spices and the fish sauce to the pot with the beef shanks. Bring to a boil, then reduce the heat to maintain a gentle simmer. Cook, skimming off any foam that rises to the top, until the meat is tender, 1 hour to 1 hour, 30 minutes.",
+              "ingredients": [
+                {
+                  "id": 13227,
+                  "name": "beef shank",
+                  "localizedName": "beef shank",
+                  "image": "sliced-beef-shank.png"
+                },
+                {
+                  "id": 6008,
+                  "name": "beef broth",
+                  "localizedName": "beef broth",
+                  "image": "beef-broth.png"
+                },
+                {
+                  "id": 6179,
+                  "name": "fish sauce",
+                  "localizedName": "fish sauce",
+                  "image": "asian-fish-sauce.jpg"
+                },
+                {
+                  "id": 2035,
+                  "name": "spices",
+                  "localizedName": "spices",
+                  "image": "spices.png"
+                },
+                {
+                  "id": 14412,
+                  "name": "water",
+                  "localizedName": "water",
+                  "image": "water.png"
+                },
+                {
+                  "id": 1065062,
+                  "name": "meat",
+                  "localizedName": "meat",
+                  "image": "whole-chicken.jpg"
                 }
-              },
-              {
-                "number": 3,
-                "step": "Mix ginger, cardamom, cinnamon, coriander, star anise and cloves with fish sauce.",
-                "ingredients": [
-                  {
-                    "id": 6179,
-                    "name": "fish sauce",
-                    "localizedName": "fish sauce",
-                    "image": "asian-fish-sauce.jpg"
-                  },
-                  {
-                    "id": 1012002,
-                    "name": "star anise",
-                    "localizedName": "star anise",
-                    "image": "star-anise.jpg"
-                  },
-                  {
-                    "id": 1012013,
-                    "name": "coriander",
-                    "localizedName": "coriander",
-                    "image": "ground-coriander.jpg"
-                  },
-                  {
-                    "id": 2006,
-                    "name": "cardamom",
-                    "localizedName": "cardamom",
-                    "image": "cardamom.jpg"
-                  },
-                  {
-                    "id": 2010,
-                    "name": "cinnamon",
-                    "localizedName": "cinnamon",
-                    "image": "cinnamon.jpg"
-                  },
-                  {
-                    "id": 1002011,
-                    "name": "clove",
-                    "localizedName": "clove",
-                    "image": "cloves.jpg"
-                  },
-                  {
-                    "id": 11216,
-                    "name": "ginger",
-                    "localizedName": "ginger",
-                    "image": "ginger.png"
-                  }
-                ],
-                "equipment": []
-              },
-              {
-                "number": 4,
-                "step": "Add the zest and juice of the lime.",
-                "ingredients": [
-                  {
-                    "id": 1019016,
-                    "name": "juice",
-                    "localizedName": "juice",
-                    "image": "apple-juice.jpg"
-                  },
-                  {
-                    "id": 9159,
-                    "name": "lime",
-                    "localizedName": "lime",
-                    "image": "lime.jpg"
-                  }
-                ],
-                "equipment": []
-              },
-              {
-                "number": 5,
-                "step": "Pour stock over vegetables and add the seasoned fish sauce.  Stir and let simmer 10 minutes.",
-                "ingredients": [
-                  {
-                    "id": 6179,
-                    "name": "fish sauce",
-                    "localizedName": "fish sauce",
-                    "image": "asian-fish-sauce.jpg"
-                  },
-                  {
-                    "id": 11583,
-                    "name": "vegetable",
-                    "localizedName": "vegetable",
-                    "image": "mixed-vegetables.png"
-                  },
-                  {
-                    "id": 1006615,
-                    "name": "stock",
-                    "localizedName": "stock",
-                    "image": "chicken-broth.png"
-                  }
-                ],
-                "equipment": [],
-                "length": {
-                  "number": 10,
-                  "unit": "minutes"
+              ],
+              "equipment": [
+                {
+                  "id": 404752,
+                  "name": "pot",
+                  "localizedName": "pot",
+                  "image": "stock-pot.jpg"
                 }
-              },
-              {
-                "number": 6,
-                "step": "Remove star anise from the soup.",
-                "ingredients": [
-                  {
-                    "id": 1012002,
-                    "name": "star anise",
-                    "localizedName": "star anise",
-                    "image": "star-anise.jpg"
-                  },
-                  {
-                    "id": 0,
-                    "name": "soup",
-                    "localizedName": "soup",
-                    "image": ""
-                  }
-                ],
-                "equipment": []
-              },
-              {
-                "number": 7,
-                "step": "Place cooked Pho noodles into 6 bowls.  Ladle soup over the noodles and top with julienned carrot.",
-                "ingredients": [
-                  {
-                    "id": 20420,
-                    "name": "pasta",
-                    "localizedName": "pasta",
-                    "image": "fusilli.jpg"
-                  },
-                  {
-                    "id": 11124,
-                    "name": "carrot",
-                    "localizedName": "carrot",
-                    "image": "sliced-carrot.png"
-                  },
-                  {
-                    "id": 0,
-                    "name": "soup",
-                    "localizedName": "soup",
-                    "image": ""
-                  },
-                  {
-                    "id": 0,
-                    "name": "pho",
-                    "localizedName": "pho",
-                    "image": ""
-                  }
-                ],
-                "equipment": [
-                  {
-                    "id": 404783,
-                    "name": "bowl",
-                    "localizedName": "bowl",
-                    "image": "bowl.jpg"
-                  },
-                  {
-                    "id": 404630,
-                    "name": "ladle",
-                    "localizedName": "ladle",
-                    "image": "ladle.jpg"
-                  }
-                ]
-              },
-              {
-                "number": 8,
-                "step": "Serve with hoisin sauce, sriracha and lime wedges.",
-                "ingredients": [
-                  {
-                    "id": 6175,
-                    "name": "hoisin sauce",
-                    "localizedName": "hoisin sauce",
-                    "image": "dark-sauce.jpg"
-                  },
-                  {
-                    "id": 1029159,
-                    "name": "lime wedge",
-                    "localizedName": "lime wedge",
-                    "image": "lime-wedge.jpg"
-                  },
-                  {
-                    "id": 1016168,
-                    "name": "sriracha",
-                    "localizedName": "sriracha",
-                    "image": "hot-sauce-or-tabasco.png"
-                  }
-                ],
-                "equipment": []
+              ],
+              "length": {
+                "number": 150,
+                "unit": "minutes"
               }
-            ]
-          }
-        ]
-      }
-    ]
-  }
+            },
+            {
+              "number": 5,
+              "step": "Remove from the heat and transfer the beef shanks to a cutting board; strain the broth through a fine-mesh sieve into another large pot. (The broth can be made up to 2 days ahead; let cool, then refrigerate in a covered container.)",
+              "ingredients": [
+                {
+                  "id": 13227,
+                  "name": "beef shank",
+                  "localizedName": "beef shank",
+                  "image": "sliced-beef-shank.png"
+                },
+                {
+                  "id": 1006615,
+                  "name": "broth",
+                  "localizedName": "broth",
+                  "image": "chicken-broth.png"
+                }
+              ],
+              "equipment": [
+                {
+                  "id": 404716,
+                  "name": "cutting board",
+                  "localizedName": "cutting board",
+                  "image": "cutting-board.jpg"
+                },
+                {
+                  "id": 405600,
+                  "name": "sieve",
+                  "localizedName": "sieve",
+                  "image": "strainer.png"
+                },
+                {
+                  "id": 404752,
+                  "name": "pot",
+                  "localizedName": "pot",
+                  "image": "stock-pot.jpg"
+                }
+              ]
+            },
+            {
+              "number": 6,
+              "step": "Shred the meat from the shanks with two forks, discarding any bits of cartilage, then stir back into the broth. Discard the bones.",
+              "ingredients": [
+                {
+                  "id": 1006615,
+                  "name": "broth",
+                  "localizedName": "broth",
+                  "image": "chicken-broth.png"
+                },
+                {
+                  "id": 1065062,
+                  "name": "meat",
+                  "localizedName": "meat",
+                  "image": "whole-chicken.jpg"
+                }
+              ],
+              "equipment": []
+            },
+            {
+              "number": 7,
+              "step": "Cook the noodles as the label directs. Divide the broth and shredded meat among bowls, then add the noodles and roast beef. Top with the bean sprouts, basil, jalapenos and red onion; serve with hoisin sauce and/or Sriracha.",
+              "ingredients": [
+                {
+                  "id": 11043,
+                  "name": "bean sprouts",
+                  "localizedName": "bean sprouts",
+                  "image": "bean-sprouts.jpg"
+                },
+                {
+                  "id": 6175,
+                  "name": "hoisin sauce",
+                  "localizedName": "hoisin sauce",
+                  "image": "dark-sauce.jpg"
+                },
+                {
+                  "id": 93713,
+                  "name": "roast beef",
+                  "localizedName": "roast beef",
+                  "image": "roast-beef-slices.jpg"
+                },
+                {
+                  "id": 11979,
+                  "name": "jalapeno pepper",
+                  "localizedName": "jalapeno pepper",
+                  "image": "jalapeno-pepper.png"
+                },
+                {
+                  "id": 10011282,
+                  "name": "red onion",
+                  "localizedName": "red onion",
+                  "image": "red-onion.png"
+                },
+                {
+                  "id": 1016168,
+                  "name": "sriracha",
+                  "localizedName": "sriracha",
+                  "image": "hot-sauce-or-tabasco.png"
+                },
+                {
+                  "id": 20420,
+                  "name": "pasta",
+                  "localizedName": "pasta",
+                  "image": "fusilli.jpg"
+                },
+                {
+                  "id": 2044,
+                  "name": "basil",
+                  "localizedName": "basil",
+                  "image": "basil.jpg"
+                },
+                {
+                  "id": 1006615,
+                  "name": "broth",
+                  "localizedName": "broth",
+                  "image": "chicken-broth.png"
+                },
+                {
+                  "id": 1065062,
+                  "name": "meat",
+                  "localizedName": "meat",
+                  "image": "whole-chicken.jpg"
+                }
+              ],
+              "equipment": [
+                {
+                  "id": 404783,
+                  "name": "bowl",
+                  "localizedName": "bowl",
+                  "image": "bowl.jpg"
+                }
+              ]
+            },
+            {
+              "number": 8,
+              "step": "Photograph by Con Poulos",
+              "ingredients": [],
+              "equipment": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": true,
+      "veryHealthy": false,
+      "cheap": false,
+      "veryPopular": false,
+      "sustainable": false,
+      "lowFodmap": false,
+      "weightWatcherSmartPoints": 11,
+      "gaps": "no",
+      "preparationMinutes": 20,
+      "cookingMinutes": 20,
+      "aggregateLikes": 23,
+      "healthScore": 26,
+      "creditsText": "Eating Richly",
+      "sourceName": "Eating Richly",
+      "pricePerServing": 194.57,
+      "id": 3,
+      "title": "Easy Pho",
+      "readyInMinutes": 40,
+      "servings": 6,
+      "sourceUrl": "http://eatingrichly.com/04/easy-pho-recipe-with-leftover-roast-goose/",
+      "image": "https://spoonacular.com/recipeImages/485512-312x231.jpg",
+      "imageType": "jpg",
+      "summary": "If you want to add more <b>Vietnamese</b> recipes to your recipe box, Easy Pho might be a recipe you should try. One serving contains <b>454 calories</b>, <b>28g of protein</b>, and <b>6g of fat</b>. For <b>$1.95 per serving</b>, you get a main course that serves 6. A few people made this recipe, and 23 would say it hit the spot. Head to the store and pick up goose meat and skin, fish sauce, cinnamon, and a few other things to make it today. It is a good option if you're following a <b>dairy free</b> diet. It is brought to you by Eating Richly. From preparation to the plate, this recipe takes approximately <b>40 minutes</b>. Overall, this recipe earns an <b>outstanding spoonacular score of 84%</b>. If you like this recipe, you might also like recipes such as <a href=\"https://spoonacular.com/recipes/instant-pot-chicken-pho-noodle-soup-pho-ga-1100131\">Instant Pot Chicken Pho Noodle Soup (Pho Ga)</a>, <a href=\"https://spoonacular.com/recipes/easy-vegan-pho-1591073\">Easy Vegan Pho</a>, and <a href=\"https://spoonacular.com/recipes/easy-vegan-pho-1591555\">Easy Vegan Pho</a>.",
+      "cuisines": [
+        "Vietnamese",
+        "Asian"
+      ],
+      "dishTypes": [
+        "soup",
+        "lunch",
+        "main course",
+        "main dish",
+        "dinner"
+      ],
+      "diets": [
+        "dairy free"
+      ],
+      "occasions": [],
+      "analyzedInstructions": [
+        {
+          "name": "",
+          "steps": [
+            {
+              "number": 1,
+              "step": "Place your leftover goose meat in a large pot and heat on medium high.  When it begins to sizzle, add garlic, onion and bell pepper.",
+              "ingredients": [
+                {
+                  "id": 10211821,
+                  "name": "bell pepper",
+                  "localizedName": "bell pepper",
+                  "image": "bell-pepper-orange.png"
+                },
+                {
+                  "id": 11215,
+                  "name": "garlic",
+                  "localizedName": "garlic",
+                  "image": "garlic.png"
+                },
+                {
+                  "id": 93714,
+                  "name": "whole goose",
+                  "localizedName": "whole goose",
+                  "image": "duck.png"
+                },
+                {
+                  "id": 11282,
+                  "name": "onion",
+                  "localizedName": "onion",
+                  "image": "brown-onion.png"
+                },
+                {
+                  "id": 1065062,
+                  "name": "meat",
+                  "localizedName": "meat",
+                  "image": "whole-chicken.jpg"
+                }
+              ],
+              "equipment": [
+                {
+                  "id": 404752,
+                  "name": "pot",
+                  "localizedName": "pot",
+                  "image": "stock-pot.jpg"
+                }
+              ]
+            },
+            {
+              "number": 2,
+              "step": "Mix well, then cook 6-8 minutes without stirring until vegetables have softened.",
+              "ingredients": [
+                {
+                  "id": 11583,
+                  "name": "vegetable",
+                  "localizedName": "vegetable",
+                  "image": "mixed-vegetables.png"
+                }
+              ],
+              "equipment": [],
+              "length": {
+                "number": 8,
+                "unit": "minutes"
+              }
+            },
+            {
+              "number": 3,
+              "step": "Mix ginger, cardamom, cinnamon, coriander, star anise and cloves with fish sauce.",
+              "ingredients": [
+                {
+                  "id": 6179,
+                  "name": "fish sauce",
+                  "localizedName": "fish sauce",
+                  "image": "asian-fish-sauce.jpg"
+                },
+                {
+                  "id": 1012002,
+                  "name": "star anise",
+                  "localizedName": "star anise",
+                  "image": "star-anise.jpg"
+                },
+                {
+                  "id": 1012013,
+                  "name": "coriander",
+                  "localizedName": "coriander",
+                  "image": "ground-coriander.jpg"
+                },
+                {
+                  "id": 2006,
+                  "name": "cardamom",
+                  "localizedName": "cardamom",
+                  "image": "cardamom.jpg"
+                },
+                {
+                  "id": 2010,
+                  "name": "cinnamon",
+                  "localizedName": "cinnamon",
+                  "image": "cinnamon.jpg"
+                },
+                {
+                  "id": 1002011,
+                  "name": "clove",
+                  "localizedName": "clove",
+                  "image": "cloves.jpg"
+                },
+                {
+                  "id": 11216,
+                  "name": "ginger",
+                  "localizedName": "ginger",
+                  "image": "ginger.png"
+                }
+              ],
+              "equipment": []
+            },
+            {
+              "number": 4,
+              "step": "Add the zest and juice of the lime.",
+              "ingredients": [
+                {
+                  "id": 1019016,
+                  "name": "juice",
+                  "localizedName": "juice",
+                  "image": "apple-juice.jpg"
+                },
+                {
+                  "id": 9159,
+                  "name": "lime",
+                  "localizedName": "lime",
+                  "image": "lime.jpg"
+                }
+              ],
+              "equipment": []
+            },
+            {
+              "number": 5,
+              "step": "Pour stock over vegetables and add the seasoned fish sauce.  Stir and let simmer 10 minutes.",
+              "ingredients": [
+                {
+                  "id": 6179,
+                  "name": "fish sauce",
+                  "localizedName": "fish sauce",
+                  "image": "asian-fish-sauce.jpg"
+                },
+                {
+                  "id": 11583,
+                  "name": "vegetable",
+                  "localizedName": "vegetable",
+                  "image": "mixed-vegetables.png"
+                },
+                {
+                  "id": 1006615,
+                  "name": "stock",
+                  "localizedName": "stock",
+                  "image": "chicken-broth.png"
+                }
+              ],
+              "equipment": [],
+              "length": {
+                "number": 10,
+                "unit": "minutes"
+              }
+            },
+            {
+              "number": 6,
+              "step": "Remove star anise from the soup.",
+              "ingredients": [
+                {
+                  "id": 1012002,
+                  "name": "star anise",
+                  "localizedName": "star anise",
+                  "image": "star-anise.jpg"
+                },
+                {
+                  "id": 0,
+                  "name": "soup",
+                  "localizedName": "soup",
+                  "image": ""
+                }
+              ],
+              "equipment": []
+            },
+            {
+              "number": 7,
+              "step": "Place cooked Pho noodles into 6 bowls.  Ladle soup over the noodles and top with julienned carrot.",
+              "ingredients": [
+                {
+                  "id": 20420,
+                  "name": "pasta",
+                  "localizedName": "pasta",
+                  "image": "fusilli.jpg"
+                },
+                {
+                  "id": 11124,
+                  "name": "carrot",
+                  "localizedName": "carrot",
+                  "image": "sliced-carrot.png"
+                },
+                {
+                  "id": 0,
+                  "name": "soup",
+                  "localizedName": "soup",
+                  "image": ""
+                },
+                {
+                  "id": 0,
+                  "name": "pho",
+                  "localizedName": "pho",
+                  "image": ""
+                }
+              ],
+              "equipment": [
+                {
+                  "id": 404783,
+                  "name": "bowl",
+                  "localizedName": "bowl",
+                  "image": "bowl.jpg"
+                },
+                {
+                  "id": 404630,
+                  "name": "ladle",
+                  "localizedName": "ladle",
+                  "image": "ladle.jpg"
+                }
+              ]
+            },
+            {
+              "number": 8,
+              "step": "Serve with hoisin sauce, sriracha and lime wedges.",
+              "ingredients": [
+                {
+                  "id": 6175,
+                  "name": "hoisin sauce",
+                  "localizedName": "hoisin sauce",
+                  "image": "dark-sauce.jpg"
+                },
+                {
+                  "id": 1029159,
+                  "name": "lime wedge",
+                  "localizedName": "lime wedge",
+                  "image": "lime-wedge.jpg"
+                },
+                {
+                  "id": 1016168,
+                  "name": "sriracha",
+                  "localizedName": "sriracha",
+                  "image": "hot-sauce-or-tabasco.png"
+                }
+              ],
+              "equipment": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

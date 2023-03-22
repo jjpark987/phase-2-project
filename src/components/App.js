@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { Switch, Route } from "react-router-dom";
 import NavBar from "./NavBar";
 import Home from "./Home";
@@ -9,25 +9,21 @@ import AddRecipe from "./AddRecipe";
 function App() {
   const [recipes, setRecipes] = useState([]);
 
-  useEffect(() => {
-    fetch("http://localhost:3000/results")
-    .then(r => r.json())
-    .then(d => {
-      const data = d.map(datum => {
-        const { image, title, sourceUrl, servings  } = datum;
-        const id = d.indexOf(datum) + 1;
-        const titleCapitalized = title.split(" ").map(word => word[0].toUpperCase() + word.slice(1).toLowerCase()).join(" ");
-        const instructions = datum.analyzedInstructions[0].steps.map(s => s.step);
-        return { id, image, titleCapitalized, sourceUrl, servings, instructions };
-      })
-      setRecipes(data);
-    })
-    .catch(e => console.log(e));
-  }, []);
-
   function addNewRecipe(newRecipe) {
     newRecipe = {...newRecipe, id: recipes.length + 1}
     setRecipes([...recipes, newRecipe]);
+  }
+
+  function deleteRecipe(id) {
+    fetch(`http://localhost:3000/results/${id}`, {
+      method: "DELETE",
+      headers: {
+        "Content-Type": "application/json"
+      }
+    })
+    .then(r => r.json())
+    .then(() => setRecipes(recipes.filter(recipe => recipe.id !== id)))
+    .catch(e => console.log(e));
   }
 
   return (
@@ -38,7 +34,11 @@ function App() {
           <Home />
         </Route>
         <Route exact path="/recipes">
-          <RecipesList recipes={recipes} />
+          <RecipesList
+            recipes={recipes}
+            onSetRecipes={recipe => setRecipes(recipe)} 
+            onHandleDelete={deleteRecipe}
+          />
         </Route>
         <Route path="/recipes/new">
           <AddRecipe onAddNewRecipe={addNewRecipe} />
