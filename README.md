@@ -8,7 +8,7 @@ Recipe Journal is a single page React application created using create-react-app
 
 Recipe Journal uses seven components. The hierarchy is shown below:
 
-![component hierarchy](/component_hierarchy.jpeg)
+![component hierarchy](./public/component_hierarchy.png)
 
 ### NavBar and Home
 
