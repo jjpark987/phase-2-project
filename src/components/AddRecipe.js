@@ -36,9 +36,9 @@ function AddRecipe({ onAddNewRecipe }) {
     }
 
     return (
-        <div>
+        <div id="add-recipe">
             <h1>Add a New Recipe</h1>
-            <form onSubmit={handleSubmit}>
+            <form id="add-recipe-form" onSubmit={handleSubmit}>
                 <label htmlFor="imageUrl">Image URL:</label>
                 <input
                     id="imageUrl"

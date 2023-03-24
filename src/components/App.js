@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Switch, Route } from "react-router-dom";
+import { Switch, Route, useHistory } from "react-router-dom";
 import NavBar from "./NavBar";
 import Home from "./Home";
 import RecipesList from "./RecipesList";
@@ -8,6 +8,7 @@ import AddRecipe from "./AddRecipe";
 
 function App() {
   const [recipes, setRecipes] = useState([]);
+  const history = useHistory();
 
   function deleteRecipe(id) {
     fetch(`http://localhost:3000/recipes/${id}`, {
@@ -17,12 +18,15 @@ function App() {
       }
     })
     .then(r => r.json())
-    .then(() => setRecipes(recipes.filter(recipe => recipe.id !== id)))
+    .then(() => {
+      setRecipes(recipes.filter(recipe => recipe.id !== id));
+      history.push("/recipes");
+    })
     .catch(e => console.log(e));
   }
 
   return (
-    <div className="App">
+    <div id="app">
       <NavBar />
       <Switch>
         <Route exact path="/">
@@ -31,15 +35,14 @@ function App() {
         <Route exact path="/recipes">
           <RecipesList
             recipes={recipes}
-            onSetRecipes={recipe => setRecipes(recipe)} 
-            onHandleDelete={deleteRecipe}
+            onSetRecipes={recipe => setRecipes(recipe)}
           />
         </Route>
         <Route path="/recipes/new">
           <AddRecipe onAddNewRecipe={newRecipe => setRecipes([...recipes, newRecipe])} />
         </Route>
         <Route path="/recipes/:id">
-          <RecipeDetail recipes={recipes} />
+          <RecipeDetail recipes={recipes} onHandleDelete={deleteRecipe} />
         </Route>
         <Route path="*">
           <h1>404 Not Found</h1>

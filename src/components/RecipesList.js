@@ -18,8 +18,7 @@ function RecipesList({ recipes, onSetRecipes, onHandleDelete }) {
       }, []);
 
     return (
-        <div>
-            <h1>Recipes</h1>
+        <div id="list">
             {recipes.map(recipe => (
                 <RecipeItem key={recipe.id} recipe={recipe} onHandleDelete={onHandleDelete} />
             ))}

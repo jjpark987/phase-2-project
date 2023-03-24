@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 
-function RecipeDetail({ recipes }) {
+function RecipeDetail({ recipes, onHandleDelete }) {
     const [currentRecipe, setCurrentRecipe] = useState(null);
     const [editToggle, setEditToggle] = useState(false);
     const { id } = useParams();
@@ -35,9 +35,9 @@ function RecipeDetail({ recipes }) {
     if(!currentRecipe) return <h1>Page unavailable</h1>
 
     if(editToggle) return (
-        <div>
+        <div className="edit">
             <h1>Edit Recipe</h1>
-            <form onSubmit={handleSubmit}>
+            <form className="edit-form" onSubmit={handleSubmit}>
                 <label htmlFor="imageUrl">Image URL:</label>
                 <input
                     id="imageUrl"
@@ -81,15 +81,18 @@ function RecipeDetail({ recipes }) {
     )
 
     return (
-        <div>
-            <img src={currentRecipe.image} alt={currentRecipe.titleCapitalized} />
+        <div className="detail">
+            <img className="detail-image" src={currentRecipe.image} alt={currentRecipe.titleCapitalized} />
             <h1>{currentRecipe.titleCapitalized}</h1>
             <h3>{"Instructions for " + currentRecipe.servings + " serving(s):"}</h3>
             <ol>
                 {currentRecipe.instructions.map((step, index) => <li key={index}>{step}</li>)}
             </ol>
-            <button type="button" onClick={() => setEditToggle(!editToggle)}>Edit recipe</button>
             {currentRecipe.sourceUrl ? <a href={currentRecipe.sourceUrl}> Go to the recipe website!</a> : null}
+            <br />
+            <button type="button" onClick={() => setEditToggle(!editToggle)}>Edit recipe</button>
+            <br />
+            <button type="button" onClick={() => onHandleDelete(currentRecipe.id)}>Delete recipe</button>
         </div>
     );
 }
