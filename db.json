@@ -2720,13 +2720,13 @@
         {
           "steps": [
             {
-              "step": "test1"
+              "step": "Step1"
             },
             {
-              "step": "test2"
+              "step": "Step2"
             },
             {
-              "step": "test3"
+              "step": "Step3"
             }
           ]
         }
