@@ -29,7 +29,7 @@ function RecipeDetail({ recipes, onHandleDelete }) {
         .then(r => r.json())
         .then(d => console.log(d))
         .catch(e => console.log(e));
-        setEditToggle(!editToggle);
+        setEditToggle(() => !editToggle);
     }
 
     if(!currentRecipe) return <h1>Page unavailable</h1>
@@ -90,7 +90,7 @@ function RecipeDetail({ recipes, onHandleDelete }) {
             </ol>
             {currentRecipe.sourceUrl ? <a href={currentRecipe.sourceUrl}> Go to the recipe website!</a> : null}
             <br />
-            <button type="button" onClick={() => setEditToggle(!editToggle)}>Edit recipe</button>
+            <button type="button" onClick={() => setEditToggle(() => !editToggle)}>Edit recipe</button>
             <br />
             <button type="button" onClick={() => onHandleDelete(currentRecipe.id)}>Delete recipe</button>
         </div>
