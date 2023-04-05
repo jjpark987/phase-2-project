@@ -32,6 +32,10 @@ function RecipeDetail({ recipes, onHandleDelete }) {
         setEditToggle(() => !editToggle);
     }
 
+    function handleOnChange(e) {
+        setCurrentRecipe({...currentRecipe, [e.target.name]: e.target.value})
+    }
+
     if(!currentRecipe) return <h1>Page unavailable</h1>
 
     if(editToggle) return (
@@ -41,23 +45,26 @@ function RecipeDetail({ recipes, onHandleDelete }) {
                 <label htmlFor="imageUrl">Image URL:</label>
                 <input
                     id="imageUrl"
-                    placeholder={currentRecipe.image} 
+                    placeholder={currentRecipe.image}
+                    name="image" 
                     value={currentRecipe.image} 
-                    onChange={e => setCurrentRecipe({...currentRecipe, image: e.target.value})} 
+                    onChange={(e) => handleOnChange(e)} 
                 />
                 <label htmlFor="name">Name:</label>
                 <input
                     id="name"
                     placeholder={currentRecipe.titleCapitalized}
+                    name="titleCapitalized"
                     value={currentRecipe.titleCapitalized} 
-                    onChange={e => setCurrentRecipe({...currentRecipe, titleCapitalized: e.target.value})}
+                    onChange={(e) => handleOnChange(e)}
                 />
                 <label htmlFor="servings">Serving size:</label>
                 <input
                     id="servings"
                     placeholder={currentRecipe.servings} 
+                    name="servings"
                     value={currentRecipe.servings} 
-                    onChange={e => setCurrentRecipe({...currentRecipe, servings: e.target.value})}
+                    onChange={(e) => handleOnChange(e)}
                 />
                 <label htmlFor="instructions">Instructions:</label>
                 {currentRecipe.instructions.map((step, index) => 

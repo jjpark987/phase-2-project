@@ -35,6 +35,10 @@ function AddRecipe({ onAddNewRecipe }) {
         .catch(e => console.log(e));
     }
 
+    function handleOnChange(e) {
+        setNewRecipe({...newRecipe, [e.target.name]: e.target.value})
+    }
+
     return (
         <div id="add-recipe">
             <h1>Add a New Recipe</h1>
@@ -42,20 +46,23 @@ function AddRecipe({ onAddNewRecipe }) {
                 <label htmlFor="imageUrl">Image URL:</label>
                 <input
                     id="imageUrl"
+                    name="image"
                     value={newRecipe.imageUrl}
-                    onChange={e => setNewRecipe({...newRecipe, image: e.target.value})}
+                    onChange={(e) => handleOnChange(e)}
                 />
                 <label htmlFor="name">Name:</label>
                 <input
                     id="name"
+                    name="titleCapitalized"
                     value={newRecipe.name} 
-                    onChange={e => setNewRecipe({...newRecipe, titleCapitalized: e.target.value})}
+                    onChange={(e) => handleOnChange(e)}
                 />
                 <label htmlFor="servings">Serving size:</label>
                 <input
                     id="servings"
+                    name="servings"
                     value={newRecipe.servingSize}
-                    onChange={e => setNewRecipe({...newRecipe, servings: e.target.value})}
+                    onChange={(e) => handleOnChange(e)}
                 />
                 <label htmlFor="instructions">Instructions:</label>
                 {newRecipe.instructions.map((_, index) => (
